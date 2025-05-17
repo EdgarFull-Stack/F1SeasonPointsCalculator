@@ -1,0 +1,88 @@
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 117px;
+  width: 394px;
+  gap: 8px;
+  text-align: center;
+}
+header h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #2c2c2c;
+}
+header .instructions {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: #2c2c2c;
+}
+#pointsForm {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  min-width: 320px;
+  padding: 24px;
+  gap: 24px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#pointsForm .inputs {
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: #1e1e1e;
+}
+#pointsForm .inputs label {
+  margin: 0;
+  width: 272px;
+  height: 22px;
+  line-height: 1.4;
+  color: #1e1e1e;
+}
+#pointsForm .inputs input {
+  min-width: 240px;
+  padding: 12px 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: #b3b3b3;
+}
+#pointsForm button[type="submit"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 272px;
+  height: 40px;
+  padding: 12px;
+  gap: 16px;
+  background: #2c2c2c;
+  color: #f5f5f5;
+  border: 1px solid #2c2c2c;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  cursor: pointer;
+}
